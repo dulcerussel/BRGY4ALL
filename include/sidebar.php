@@ -18,9 +18,13 @@
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" class="dropdown-toggle no-arrow">
+						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-table"></span><span class="mtext">Masterlist</span>
 						</a>
+						<ul class="submenu">
+							<li><a href="datatable.php">Updated List</a></li>
+							<li><a href="approvallist.php">Need for Approval</a></li>
+						</ul>
 					</li>
 					<li>
 						<a href="calendar.php" class="dropdown-toggle no-arrow">
@@ -31,32 +35,19 @@
 						<a href="javascript:;" class="dropdown-toggle no-arrow">
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Announcement</span>
 						</a>
+						<ul class="submenu">
+							<li><a href="datatable.php">Announcement Maker</a></li>
+							<li><a href="approvallist.php">Announcement List</a></li>
+						</ul>
 					</li>
+					
 					<li>
 						<a href="javascript:;" class="dropdown-toggle no-arrow">
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Service </span>
 						</a>
-					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-list"></span><span class="mtext">NGOs and National Collab</span>
-						</a>
 						<ul class="submenu">
-							<li><a href="javascript:;">Level 1</a></li>
-							<li><a href="javascript:;">Level 1</a></li>
-							<li><a href="javascript:;">Level 1</a></li>
-							<li class="dropdown">
-								<a href="javascript:;" class="dropdown-toggle">
-									<span class="fa fa-plug"></span><span class="mtext">Level 2</span>
-								</a>
-								<ul class="submenu child">
-									<li><a href="javascript:;">Level 2</a></li>
-									<li><a href="javascript:;">Level 2</a></li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Level 1</a></li>
-							<li><a href="javascript:;">Level 1</a></li>
-							<li><a href="javascript:;">Level 1</a></li>
+							<li><a href="datatable.php">Service Maker</a></li>
+							<li><a href="approvallist.php">Service List</a></li>
 						</ul>
 					</li>
 					<li>
