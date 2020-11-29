@@ -46,10 +46,17 @@
 						<form class="tab-wizard wizard-circle wizard">
 							<h5>Personal Info</h5>
 							<section>
+							<label >Please check his/her Birth Certificate for authentication</label>
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
 											<label >First Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Middle Name :</label>
 											<input type="text" class="form-control">
 										</div>
 									</div>
@@ -70,6 +77,10 @@
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Phone Number :</label>
+											<input type="text" class="form-control">
+										</div>
+										<div class="form-group">
+											<label>Telephone Number :</label>
 											<input type="text" class="form-control">
 										</div>
 									</div>
@@ -93,7 +104,22 @@
 											<input type="text" class="form-control date-picker" placeholder="Select Date">
 										</div>
 									</div>
+									<div class="col-md-6 col-sm-12">
+										<div class="form-group">
+											<label >Place of Birth :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
 								</div>
+								<div class="row">
+									<div class="col-md-12 col-sm-12">
+										<div class="form-group">
+										<label>Current Address:</label>
+										<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								
 								<div class="col-md-6">
 										<div class="form-group">
 											<label>Gender:</label>
@@ -136,7 +162,7 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Have a job?:</label>
+											<label>Have a job?: (If yes, pls check her/his working ids/documents)</label>
 											<div class="custom-control custom-radio mb-5">
 												<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
 												<label class="custom-control-label" for="customRadio4">Yes</label>
@@ -151,20 +177,101 @@
 											</div>
 										</div>
 									</div>
-									<div class="form-group">
-											<label>Job Title :</label>
+								</div>
+								<div class="form-group">
+											<label>Status:</label>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio4">Contractual</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">Regular/Permanent</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">Household</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">Self-employed</label>
+											</div>
+								</div>
+								<div class="form-group">
+											<label>Company Type:</label>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio4">Government</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">Private</label>
+											</div>
+											<div class="form-group">
+												<label>Others :</label>
+												<input type="text" class="form-control">
+											</div>
+								</div>
+							</section>
+							<h5>Health</h5>
+							<section>
+							<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Have any health conditions?: (If yes, pls check her/his medical certificate/documents)</label>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio4">Yes</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">No</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Specific Health Condition :</label>
 											<input type="text" class="form-control">
+										</div>
+										<div class="form-group">
+											<label>Frequency on medical check-up :</label>
+											<select class="form-control">
+												<option>Seldom</option>
+												<option>Frequent</option>
+												<option>Always</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</section>
+							<h5>Pets</h5>
+							<section>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Interview For :</label>
+											<input type="text" class="form-control">
+										</div>
+										<div class="form-group">
+											<label>Interview Type :</label>
+											<select class="form-control">
+												<option>Normal</option>
+												<option>Difficult</option>
+												<option>Hard</option>
+											</select>
+										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Company Name :</label>
-											<input type="text" class="form-control">
+											<label>Interview Date :</label>
+											<input type="text" class="form-control date-picker" placeholder="Select Date">
 										</div>
-									</div>
-									<div class="col-md-12">
 										<div class="form-group">
-											<label>Job Description :</label>
-											<textarea class="form-control"></textarea>
+											<label>Interview Time :</label>
+											<input class="form-control time-picker" placeholder="Select time" type="text">
 										</div>
 									</div>
 								</div>
