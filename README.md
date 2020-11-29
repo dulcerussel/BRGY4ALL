@@ -1,69 +1,12 @@
-# deskapp
+# BRGY4ALL
 
-DeskApp Admin is a free to use Bootstrap 4 admin template. This template uses the default Bootstrap 4 styles along with a variety of powerful jQuery plugins and tools to create a powerful framework for creating admin panels or back-end dashboards.
-
-Theme uses several libraries for charts, calendar, text forms, date range, upload area, form autocomplete, range slider, progress bars, notifications and much more.
-
-We would love to see how you use this awesome admin template. You can notify us about your site. Once the list will grown long enough we will write a post similar to this to showcase the best examples.
-
-## Built With
-* Bootstrap 4
-* Bootstrap Select
-* Bootstrap Tagsinput
-* Bootstrap Touchspin
-* Bootstrap-wysihtml5
-* Moment Js
-* Clipboard Js
-* Air Datepicker
-* Cropperjs
-* Datatables
-* Dropzone
-* Fancybox 3
-* Fullcalendar
-* Highcharts
-* Ion-rangeslider
-* jQuery Ascolorpicker
-* jQuery Asgradient
-* jQuery Knob
-* jQuery Steps
-* Jvectormap
-* Mcustom scrollbar
-* Plyr
-* Select2
-* Slick Slider
-* Sweetalert2
-* Switchery
-* Timedropper
-
-## Sample Screens
-<img src="https://user-images.githubusercontent.com/38377336/41842629-f98082c2-7888-11e8-8972-37c59baf1c3f.jpg" alt="Template 1">
-<img src="https://user-images.githubusercontent.com/38377336/41842631-f9b61414-7888-11e8-918b-fff5fc3492d4.jpg" alt="Template 2">
-<img src="https://user-images.githubusercontent.com/38377336/41842633-fa198b20-7888-11e8-847c-5ec464debef0.jpg" alt="Template 3">
+BRGY4ALL Platform consists of two parts: The Web application which is purely for Public Servants and Mobile App for Public Servants and the Citizens. The Web app would act as a QR code generator, announcement maker, database admin, and survey form where the barangay officials use this to fill out the forms given the information by each citizen and it should be true and complete. A form is a specialized form that has a broad scope of needed information which can be viewed in their Database and help them in extracting and dividing to their specialized needs: like citizens who need financial help, who are with Senior Citizens and PWDs, who is pregnant or has a baby that needs a vaccine, who needs jobs and etc. after the form is filled, the Web app generates a QR code that the citizens can scan this code and register to their mobile version app and can be printed to those who don’t have smartphone/cell phones.
+The Mobile application can be used for Public Servants and Citizens: Public Servants will use this mobile app whether they are distributing aids (Ayudas) face-to-face to their citizens to help them check their addresses, update their database by scanning the citizens owned QR code and take a photo to the citizens who are just received their aid which helps them to be more documented. The Citizens, on the other hand, notify whether there’s an event in the barangay, announcements like the “Ayudas” or Free Medical Check-ups are coming or you are qualified to be in this kind of service or aid and when they meet their Public Servants from distributing their needed aids, all they need is to share their own QR code and let them scan it; take them a photo of themselves from the Public servants and take some additional forms if there are unique information needed.
 
 ## Demo link
-A fully functional demo is available at https://deskapp-dashboard.herokuapp.com/
+A preview is available at:
 
 ## Bugs Reports
 Have a bug or a feature request? Please open a new issue.
 
-# MIT License
 
-Copyright (c) 2018 DeskApp
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
