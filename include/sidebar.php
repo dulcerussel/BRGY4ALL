@@ -32,7 +32,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" class="dropdown-toggle no-arrow">
+						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Announcement</span>
 						</a>
 						<ul class="submenu">
@@ -42,7 +42,7 @@
 					</li>
 					
 					<li>
-						<a href="javascript:;" class="dropdown-toggle no-arrow">
+						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Service </span>
 						</a>
 						<ul class="submenu">
