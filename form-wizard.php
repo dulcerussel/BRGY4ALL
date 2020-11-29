@@ -44,6 +44,30 @@
 					</div>
 					<div class="wizard-content">
 						<form class="tab-wizard wizard-circle wizard">
+						<h5>Account</h5>
+							<section>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Email Address :</label>
+											<input type="email" class="form-control">
+										</div>
+									
+										<div class="form-group">
+											<label>Username :</label>
+											<input type="text" class="form-control">
+										</div>
+										<div class="form-group">
+											<label>Password :</label>
+											<input type="text" class="form-control">
+										</div>
+										<div class="form-group">
+											<label>Re-type Password :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+							</section>
 							<h5>Personal Info</h5>
 							<section>
 							<label >Please check his/her Birth Certificate for authentication</label>
@@ -68,12 +92,6 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label>Email Address :</label>
-											<input type="email" class="form-control">
-										</div>
-									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Phone Number :</label>
@@ -119,7 +137,7 @@
 										</div>
 									</div>
 								</div>
-								
+
 								<div class="col-md-6">
 										<div class="form-group">
 											<label>Gender:</label>
@@ -154,7 +172,94 @@
 											</div>
 										</div>
 								</div>
+								<div class="form-group">
+											<label>Highest attainment on Educational :</label>
+											<select class="form-control">
+												<option>College Graduate</option>
+												<option>Some College</option>
+												<option>Highschool Graduate</option>
+												<option>Some Highschool</option>
+												<option>Elementary Graduate</option>
+												<option>Some Elementary</option>
+												<option>None</option>
+											</select>
+								</div>
 								
+							</section>
+							<h5>Family</h5>
+							<section>
+							<label >Please check his/her Birth Certificate for authentication</label>
+							<label >Father's Name</label>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >First Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Middle Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Last Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<label >Mother's Maiden Name</label>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >First Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Middle Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Last Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<label >Spouse's Name</label>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >First Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Middle Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label >Last Name :</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>How many children?</label>
+									<input id="demo3" type="text" value="" name="demo3">
+									<label>Have babies(months to 5 years old) for vaccination service</label>
+									<input id="demo3" type="text" value="" name="demo3">
+								</div>
+							</div>
 							</section>
 							<!-- Step 2 -->
 							<h5>Job Status</h5>
@@ -252,26 +357,32 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Interview For :</label>
-											<input type="text" class="form-control">
+											<label>Do you own any animals in your home? : (You ask for pictures for verification)</label>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio4">Yes</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">No</label>
+											</div>
 										</div>
 										<div class="form-group">
-											<label>Interview Type :</label>
-											<select class="form-control">
-												<option>Normal</option>
-												<option>Difficult</option>
-												<option>Hard</option>
-											</select>
+											<label>Kind of animal owned :</label>
+											<div class="custom-control custom-checkbox mb-5">
+												<input type="checkbox" class="custom-control-input" id="customCheck1-1">
+												<label class="custom-control-label" for="customCheck1-1">Livestocks Animals</label>
+											</div>
+											<div class="custom-control custom-checkbox mb-5">
+												<input type="checkbox" class="custom-control-input" id="customCheck2-1">
+												<label class="custom-control-label" for="customCheck2-1">House Pets</label>
+											</div>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Interview Date :</label>
+											<label>Last Vaccine shot (Optional):</label>
 											<input type="text" class="form-control date-picker" placeholder="Select Date">
-										</div>
-										<div class="form-group">
-											<label>Interview Time :</label>
-											<input class="form-control time-picker" placeholder="Select time" type="text">
 										</div>
 									</div>
 								</div>
@@ -364,6 +475,8 @@
 	</div>
 	<?php include('include/script.php'); ?>
 	<script src="src/plugins/jquery-steps/build/jquery.steps.js"></script>
+	<!-- bootstrap-touchspin js -->
+	<script src="src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"></script>
 	<script>
 		$(".tab-wizard").steps({
 			headerTag: "h5",
@@ -379,6 +492,37 @@
 			onFinished: function (event, currentIndex) {
 				$('#success-modal').modal('show');
 			}
+
+		});
+		// Bootstrap Touchspin
+		$("input[name='demo_vertical2']").TouchSpin({
+			verticalbuttons: true,
+			verticalupclass: 'fa fa-plus',
+			verticaldownclass: 'fa fa-minus'
+		});
+		$("input[name='demo3']").TouchSpin();
+		$("input[name='demo1']").TouchSpin({
+			min: 0,
+			max: 100,
+			step: 0.1,
+			decimals: 2,
+			boostat: 5,
+			maxboostedstep: 10,
+			postfix: '%'
+		});
+		$("input[name='demo2']").TouchSpin({
+			min: -1000000000,
+			max: 1000000000,
+			stepinterval: 50,
+			maxboostedstep: 10000000,
+			prefix: '$'
+		});
+		$("input[name='demo3_22']").TouchSpin({
+			initval: 40
+		});
+		$("input[name='demo5']").TouchSpin({
+			prefix: "pre",
+			postfix: "post"
 		});
 	</script>
 </body>
