@@ -317,6 +317,22 @@
 												<input type="text" class="form-control">
 											</div>
 								</div>
+								<div class="form-group">
+											<label>Income Classes: (You can check his/her documents)</label>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio4">Poor (Below 11k monthly)</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">Middle (Between 12k to 77k monthly)</label>
+											</div>
+											<div class="custom-control custom-radio mb-5">
+												<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio5">Above Middle</label>
+											</div>
+								</div>
+
 							</section>
 							<h5>Health</h5>
 							<section>
@@ -377,6 +393,10 @@
 												<input type="checkbox" class="custom-control-input" id="customCheck2-1">
 												<label class="custom-control-label" for="customCheck2-1">House Pets</label>
 											</div>
+											<div class="form-group">
+											<label>How many animal?</label>
+												<input id="demo3" type="text" value="" name="demo3">
+											</div>
 										</div>
 									</div>
 									<div class="col-md-6">
@@ -388,31 +408,30 @@
 								</div>
 							</section>
 							<!-- Step 3 -->
-							<h5>Interview</h5>
+							<h5>Others</h5>
 							<section>
 								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label>Interview For :</label>
-											<input type="text" class="form-control">
+								<div class="col-md-6 col-sm-12">
+									<label class="weight-600">Sectors (You can check multiple)</label>
+										<div class="custom-control custom-checkbox mb-5">
+											<input type="checkbox" class="custom-control-input" id="customCheck1-1">
+											<label class="custom-control-label" for="customCheck1-1">Indigent (Poor/Needy)</label>
 										</div>
-										<div class="form-group">
-											<label>Interview Type :</label>
-											<select class="form-control">
-												<option>Normal</option>
-												<option>Difficult</option>
-												<option>Hard</option>
-											</select>
+										<div class="custom-control custom-checkbox mb-5">
+											<input type="checkbox" class="custom-control-input" id="customCheck2-1">
+											<label class="custom-control-label" for="customCheck2-1">LGBT</label>
 										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label>Interview Date :</label>
-											<input type="text" class="form-control date-picker" placeholder="Select Date">
+										<div class="custom-control custom-checkbox mb-5">
+											<input type="checkbox" class="custom-control-input" id="customCheck3-1">
+											<label class="custom-control-label" for="customCheck3-1">Solo Parents</label>
 										</div>
-										<div class="form-group">
-											<label>Interview Time :</label>
-											<input class="form-control time-picker" placeholder="Select time" type="text">
+										<div class="custom-control custom-checkbox mb-5">
+											<input type="checkbox" class="custom-control-input" id="customCheck4-1">
+											<label class="custom-control-label" for="customCheck4-1">Person with Disability</label>
+										</div>
+										<div class="custom-control custom-checkbox mb-5">
+											<input type="checkbox" class="custom-control-input" id="customCheck4-1">
+											<label class="custom-control-label" for="customCheck4-1">Senior Citizen</label>
 										</div>
 									</div>
 								</div>
@@ -421,24 +440,6 @@
 							<h5>Remark</h5>
 							<section>
 								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label>Behaviour :</label>
-											<input type="text" class="form-control">
-										</div>
-										<div class="form-group">
-											<label>Confidance</label>
-											<input type="text" class="form-control">
-										</div>
-										<div class="form-group">
-											<label>Result</label>
-											<select class="form-control">
-												<option>Select Result</option>
-												<option>Selected</option>
-												<option>Rejected</option>
-											</select>
-										</div>
-									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Comments</label>
