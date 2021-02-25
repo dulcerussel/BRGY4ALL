@@ -13,12 +13,12 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>Announcement</h4>
+								<h4>Services</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Announcement</li>
+									<li class="breadcrumb-item"><a href="index.php">Service</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Create Service</li>
 								</ol>
 							</nav>
 						</div>
@@ -41,16 +41,28 @@
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue mb-30">Create Announcement</h4>
+							<h4 class="text-blue mb-30">Create Service</h4>
 						</div>
 					</div>
 					<form>
 
 					
 						<div class="form-group row">
-							<label class="col-sm-12 col-md-2 col-form-label">Subject:</label>
+							<label class="col-sm-12 col-md-2 col-form-label">Service Type</label>
 							<div class="col-sm-12 col-md-10">
 								<input class="form-control" type="text" placeholder="SAP Distribution">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-12 col-md-2 col-form-label">Service Name</label>
+							<div class="col-sm-12 col-md-10">
+								<input class="form-control" type="text" placeholder="SAP Distibution">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-12 col-md-2 col-form-label">Service Source</label>
+							<div class="col-sm-12 col-md-10">
+								<input class="form-control" type="text" placeholder="Govermnent">
 							</div>
 						</div>
 						<div class="form-group row">
@@ -60,22 +72,15 @@
 							</div>
 						</div>
 
-					</form>
-					<div class="form-group row">
-								<label class="col-sm-12 col-md-2 col-form-label">Datedpicker Inline</label>
-								<div class="col-sm-1  col-md-1">
-									<div class="datepicker-here" data-timepicker="true" data-language='en'></div>
-								</div>
-								
-								<div class="col-md-12 text-center">
-						<button class="btn btn-warning">Cancel</button>
-						<button class="btn btn-primary">Submit</button>
+						<div clas="form-group row">
+							<div class="text-center">
+							<a href="#" class="btn btn-warning">Cancel</a>
+							<a href="#" class="btn btn-primary">Submit</a>
+							</div>	
 						</div>
+
+					</form>
 					
-					</div>
-					<div clas="form-group row">
-						
-					</div>
 						</div>
 					</div>
 				</div>
