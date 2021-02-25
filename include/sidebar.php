@@ -1,14 +1,14 @@
 	<div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="index.php">
-				<img src="vendors/images/deskapp-logo.png" alt="">
+				<img src="vendors/images/brgy4all2.png" alt="">
 			</a>
 		</div>
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
 					<li>
-						<a href="javascript:;" class="dropdown-toggle no-arrow">
+						<a href="index.php" class="dropdown-toggle no-arrow">
 							<span class="fa fa-home"></span><span class="mtext">Home</span>
 						</a>
 					</li>
