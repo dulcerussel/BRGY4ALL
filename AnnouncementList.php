@@ -53,7 +53,7 @@
 									<th class="table-plus datatable-nosort">ID</th>
 									<th>Subject</th>
 									<th>Description</th>
-									<th>Participants</th>
+									<th>Participants</th>	
 									<th>Date & Time</th>
 									<th>Created by</th>
 									<th class="datatable-nosort">Action</th>

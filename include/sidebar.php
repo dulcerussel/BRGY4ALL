@@ -36,7 +36,7 @@
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Announcement</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="datatable.php">Announcement Maker</a></li>
+							<li><a href="announcement-maker.php">Announcement Maker</a></li>
 							<li><a href="approvallist.php">Announcement List</a></li>
 						</ul>
 					</li>
@@ -46,8 +46,8 @@
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Service </span>
 						</a>
 						<ul class="submenu">
-							<li><a href="datatable.php">Service Maker</a></li>
-							<li><a href="approvallist.php">Service List</a></li>
+							<li><a href="CreateService.php">Service Maker</a></li>
+							<li><a href="ServiceList.php">Service List</a></li>
 						</ul>
 					</li>
 					<li>
