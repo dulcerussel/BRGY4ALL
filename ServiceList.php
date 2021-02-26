@@ -16,7 +16,7 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>Masterlist</h4>
+								<h4>Service Masterlist</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
@@ -43,18 +43,18 @@
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h5 class="text-blue">Masterlist for registered BRGY4ALL citizen</h5>
+							<h5 class="text-blue">Masterlist of Services</h5>
 						</div>
 					</div>
 					<div class="row">
 						<table class="data-table stripe hover nowrap">
 							<thead>
 								<tr>
-									<th class="table-plus datatable-nosort">Name</th>
-									<th>Age</th>
-									<th>ID Number</th>
-									<th>Address</th>
-									<th>Start Date</th>
+									<th class="table-plus datatable-nosort">ID</th>
+									<th>Service Type</th>
+									<th>Name</th>
+									<th>Source</th>	
+									<th>Description</th>
 									<th class="datatable-nosort">Action</th>
 								</tr>
 							</thead>

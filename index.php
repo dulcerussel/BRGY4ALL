@@ -19,7 +19,7 @@
 							</div>
 							<div class="project-info-right">
 								<span class="no text-blue weight-500 font-24">40</span>
-								<p class="weight-400 font-18">My Earnings</p>
+								<p class="weight-400 font-18">Medical Mission</p>
 							</div>
 						</div>
 						<div class="project-info-progress">
@@ -43,7 +43,7 @@
 							</div>
 							<div class="project-info-right">
 								<span class="no text-light-green weight-500 font-24">50</span>
-								<p class="weight-400 font-18">Business Captured</p>
+								<p class="weight-400 font-18">Senior Citizen Birthday Cakes</p>
 							</div>
 						</div>
 						<div class="project-info-progress">
@@ -66,8 +66,8 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-light-orange weight-500 font-24">2 Lakhs</span>
-								<p class="weight-400 font-18">Projects Complete</p>
+								<span class="no text-light-orange weight-500 font-24">4</span>
+								<p class="weight-400 font-18">Services Completed</p>
 							</div>
 						</div>
 						<div class="project-info-progress">
@@ -90,8 +90,8 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-light-purple weight-500 font-24">5.1 Lakhs</span>
-								<p class="weight-400 font-18">Pending Business</p>
+								<span class="no text-light-purple weight-500 font-24">5</span>
+								<p class="weight-400 font-18">Animal Immunization</p>
 							</div>
 						</div>
 						<div class="project-info-progress">
@@ -107,33 +107,33 @@
 				</div>
 			</div>
 			<div class="bg-white pd-20 box-shadow border-radius-5 mb-30">
-				<h4 class="mb-30">Area Spline Chart</h4>
+				<h4 class="mb-30">Transparency Chart</h4>
 				<div class="row">
 					<div class="col-sm-12 col-md-8 col-lg-9 xs-mb-20">
 						<div id="areaspline-chart" style="min-width: 210px; height: 400px; margin: 0 auto"></div>
 					</div>
 					<div class="col-sm-12 col-md-4 col-lg-3">
-						<h5 class="mb-30 weight-500">Top Campaign Performance</h5>
+						<h5 class="mb-30 weight-500">Completed Activities</h5>
 						<div class="mb-30">
-							<p class="mb-5 font-18">John Campaign</p>
+							<p class="mb-5 font-18">Medical Mission</p>
 							<div class="progress border-radius-0" style="height: 10px;">
 								<div class="progress-bar bg-orange" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 						</div>
 						<div class="mb-30">
-							<p class="mb-5 font-18">Jane Campaign</p>
+							<p class="mb-5 font-18">Senior Citizen Birthday Cakes</p>
 							<div class="progress border-radius-0" style="height: 10px;">
 								<div class="progress-bar bg-light-orange" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 						</div>
 						<div class="mb-30">
-							<p class="mb-5 font-18">Johnny Campaign</p>
+							<p class="mb-5 font-18">Services Completed</p>
 							<div class="progress border-radius-0" style="height: 10px;">
 								<div class="progress-bar bg-light-purple" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 						</div>
 						<div class="mb-30 font-18">
-							<p class="mb-5">Daniel Campaign</p>
+							<p class="mb-5">Animal Immunization</p>
 							<div class="progress border-radius-0" style="height: 10px;">
 								<div class="progress-bar bg-light-green" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>

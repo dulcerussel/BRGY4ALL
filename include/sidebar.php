@@ -1,14 +1,14 @@
 	<div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="index.php">
-				<img src="vendors/images/deskapp-logo.png" alt="">
+				<img src="vendors/images/brgy4all2.png" alt="">
 			</a>
 		</div>
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
 					<li>
-						<a href="javascript:;" class="dropdown-toggle no-arrow">
+						<a href="index.php" class="dropdown-toggle no-arrow">
 							<span class="fa fa-home"></span><span class="mtext">Home</span>
 						</a>
 					</li>
@@ -36,7 +36,7 @@
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Announcement</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="datatable.php">Announcement Maker</a></li>
+							<li><a href="announcement-maker.php">Announcement Maker</a></li>
 							<li><a href="approvallist.php">Announcement List</a></li>
 						</ul>
 					</li>
@@ -46,8 +46,8 @@
 							<span class="fa fa-desktop"></span><span class="mtext"> Make BRGY Service </span>
 						</a>
 						<ul class="submenu">
-							<li><a href="datatable.php">Service Maker</a></li>
-							<li><a href="approvallist.php">Service List</a></li>
+							<li><a href="CreateService.php">Service Maker</a></li>
+							<li><a href="ServiceList.php">Service List</a></li>
 						</ul>
 					</li>
 					<li>
